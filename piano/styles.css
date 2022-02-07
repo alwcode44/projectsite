@@ -1,0 +1,57 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, lightblue, blue, darkblue);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+}
+
+h1 {
+    display: flex;
+    font-size: 3em;
+    color: rgba(15, 6, 6, 0.85);
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.piano {
+    display: flex;
+}
+
+.key {
+    height: calc(var(--width) * 4);
+    width: var(--width);
+}
+
+.white {
+    --width: 100px;
+    background-color: white;
+    border: 1px solid #333;
+}
+
+.white.active {
+    background-color: #CCC;
+}
+
+.black {
+    --width: 60px;
+    background-color: black;
+    margin-left: calc(var(--width) / -2);
+    margin-right: calc(var(--width) / -2);
+    z-index: 2;
+}
+
+.black.active {
+    background-color: #333;
+}

@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(to right, lightblue, blue, darkblue);
+    overflow: hidden;
+}
+
+.container{
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#time {
+    font-size: 5em;
+    color: white;
+}
+
+button{
+    border: none;
+    padding: 18px 10px;
+    font-size: 1.5em;
+    width: 150px;
+    margin: 7px;
+    border-radius: 15px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: #ffff;
+    transition: 0.4s;
+    border: none;
+}
