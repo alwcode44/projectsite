@@ -1,3 +1,3 @@
 # Project site
 
-This is something i made for fun and it consists of a Alarm clock, piano and a stopwatch.
+This is something i made for fun. It is a website that consists of a Alarm clock, piano and a stopwatch.
